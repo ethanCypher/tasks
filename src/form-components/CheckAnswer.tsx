@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
+
 export function CheckAnswer({
     expectedAnswer,
 }: {
@@ -9,14 +10,6 @@ export function CheckAnswer({
     function updateUserAnswer(event: React.ChangeEvent<HTMLInputElement>) {
         setUserAnswer(event.target.value);
     }
-
-    // function answerPrint(expected: string, given: string): string {
-    //     if (expected === given){
-    //         return "✔️";
-    //     } else {
-    //         return "❌";
-    //     }
-    // }
 
     return (
         <div>
