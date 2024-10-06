@@ -10,7 +10,6 @@ interface ColorProps {
 }
 
 function ChangeColor(props: ColorProps): React.JSX.Element {
-    //const [colorIndex, setColorIndex] = useState<number>(DEFAULT_COLOR_INDEX);
     return (
         <Button
             onClick={() => {
